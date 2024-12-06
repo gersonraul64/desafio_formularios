@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+    
+}
+
+header{
+    border: 0rem 0rem;
+    margin: 0.5rem 0rem;
+    color: #4673d5;
+    padding: 0rem 5rem ;
+}
+
+/* body:hover{
+   color: #4673d5 ;
+} */
+
+
+form{
+    display: block;
+    /* flex-wrap: wrap; */
+    /* margin: 0.3rem 1rem ; */
+    /* border: 0.2rem solid #4673d5; */
+    padding: 0rem 5rem ;
+    color:#666666;
+}
+
+.input-nombre{
+   
+    /* width: 100% 100px; */
+    padding: 1rem 0rem 0rem 0rem;
+    /* background-color: blue; */
+    border: 1px solid #CCCCCC;
+
+}
+
+.label{
+        /* margin: 15rem 0rem; */
+        /* width: 100% 10px; */
+       
+}
+
+.label-datos{
+    font-size: 12px;
+    /* margin: 15rem 0rem; */
+   
+}
+
+p{
+    margin: 0.3rem 0rem;
+}
+
+#nombre , #email{
+    display: block;
+     padding:  0.6rem; 
+     width: 69rem;
+
+} 
+
+h4{
+
+    padding: 1rem 0rem; 
+    font-size: 16px;
+    color: #666666;
+
+  
+}
+
+.preguntas p{
+    margin: 1rem 0rem; 
+}
+
+.botones{
+    display: flex;
+    /* align-content: space-between; */
+    justify-content:space-between;
+}
+
+button{
+ 
+    width: 8rem;
+    height: 3rem;
+    margin: 1rem;
+    color: #5D5FEF;
+    background-color: transparent;
+    border-radius: 5%;
+    border-color: #5D5FEF;
+    
+}
+
+.enviar{
+    background-color: #5D5FEF;
+    color:  #FFFFFF;
+
+}
